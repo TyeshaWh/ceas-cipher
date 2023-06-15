@@ -22,7 +22,9 @@ export class Cipher {
         todo: do subtraction
         todo: print letter
   return output */
-  let alphaBet = = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+  let alphaBet  = {
+      ('a':'b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
+};
       
 
   let forward = alphaBet + 4

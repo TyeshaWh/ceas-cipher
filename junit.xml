@@ -1,3 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="0" failures="0" errors="0" time="1.048">
+<testsuites name="jest tests" tests="12" failures="12" errors="0" time="0.938">
+  <testsuite name="Random key cipher" errors="0" failures="12" skipped="0" timestamp="2023-06-15T21:14:43" time="0.863" tests="12">
+    <testcase classname="Random key cipher can encode" name="Random key cipher can encode" time="0.028">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;substring&apos;)
+    at Object.substring (/projects/challenge/simple-cipher.spec.js:11:60)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Random key cipher can decode" name="Random key cipher can decode" time="0.001">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;substring&apos;)
+    at Object.substring (/projects/challenge/simple-cipher.spec.js:15:37)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Random key cipher is reversible" name="Random key cipher is reversible" time="0.008">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;abcdefghij&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:22:53)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Random key cipher key is made only of lowercase letters" name="Random key cipher key is made only of lowercase letters" time="0.001">
+      <failure>Error: expect(received).toMatch(expected)
+
+Matcher error: received value must be a string
+
+Received has value: undefined
+    at Object.toMatch (/projects/challenge/simple-cipher.spec.js:26:24)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can encode" name="Substitution cipher can encode" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;abcdefghij&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:35:41)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can decode" name="Substitution cipher can decode" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;aaaaaaaaaa&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:39:41)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher is reversible" name="Substitution cipher is reversible" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;abcdefghij&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:45:56)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can double shift encode" name="Substitution cipher can double shift encode" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;qayaeaagaciai&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:49:65)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can wrap on encode" name="Substitution cipher can wrap on encode" time="0.002">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;zabcdefghi&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:55:41)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can wrap on decode" name="Substitution cipher can wrap on decode" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;zzzzzzzzzz&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:59:41)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can encode messages longer than the key" name="Substitution cipher can encode messages longer than the key" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;iboaqcnecbfcr&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:63:55)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="Substitution cipher can decode messages longer than the key" name="Substitution cipher can decode messages longer than the key" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;iamapandabear&quot;
+Received: undefined
+    at Object.toEqual (/projects/challenge/simple-cipher.spec.js:67:55)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:135:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:130:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
 </testsuites>

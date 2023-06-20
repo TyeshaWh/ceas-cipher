@@ -6,14 +6,15 @@
 import { stringify } from "querystring"
 
 export class Cipher {
-  constructor() {
+  function (input, encode, decode, returnv) {
     this.alphaBet = 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z';
-    console.log(this.alphaBet);
-    // todo: implement
-  }
+    this.num = 0;
+    this.numJump = 3;
+   
+  };
 
   };
-  function translate()
+  console.log(`alphaBet`);
   
   /**
 ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
@@ -21,7 +22,7 @@ export class Cipher {
    * step 1 take in string and move every letter 3 letters to the left.
    */
 
-  encode() {
+  encode()
 
 
    
@@ -35,14 +36,14 @@ export class Cipher {
   return output */
 
      
-};
+
       
 
 
 
 
 
-  decode() {
+  decode() 
         /** todo: take in input from user
         todo: loop every character in provided string
   for loop 
@@ -51,6 +52,6 @@ export class Cipher {
         todo: do subtraction
         todo: print letter
   return output */
-  } ;
+  
 
 

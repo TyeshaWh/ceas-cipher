@@ -6,7 +6,7 @@
 import { stringify } from "querystring"
 
 export class Cipher {
-  function (input, encode, decode, returnv) {
+  function (alphaBet, num, numJump, returnv) {
     this.alphaBet = 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z';
     this.num = 0;
     this.numJump = 3;
